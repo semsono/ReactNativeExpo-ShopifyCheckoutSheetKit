@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Test RNE and Shopify Checkout Sheet Kit",
+    "slug": "of-them-all",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "",
+    "scheme": "ofthemall",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.ofthemall.ota",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.ofthemall.ota"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "73bc32db-cdf9-4934-b895-74801c25c49c"
+      }
+    },
+    "owner": "semsono"
+  }
+}

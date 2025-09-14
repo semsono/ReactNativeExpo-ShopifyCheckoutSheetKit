@@ -1,0 +1,14 @@
+{
+  "build": {
+    "simulator": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": true,
+        "buildConfiguration": "Debug"
+      }
+    }
+  },
+  "cli": {
+    "appVersionSource": "remote"
+  }
+}
